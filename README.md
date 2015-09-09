@@ -1,5 +1,9 @@
 # Install and "configure"
 
+* Install depends:
+```
+sudo apt-get install -y wmctrl xdotool
+```
 * Create a terminator layout named 'floating-terminator' # it's configurable by $TERMINATOR_LAYOUT_NAME in the script
 * ln -s $PROJECT_DIR/floating-terminator /usr/local/bin
 * Create a keyboard shortcut for each monitor [1,2,3] executing:
