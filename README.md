@@ -19,7 +19,7 @@ ln -s $PROJECT_DIR/floating-terminator /usr/local/bin
 ~$ xdotool getmouselocation
 x:0 y:0 screen:0 window:0
 # put them in place in 'floating-terminator':
-L49: # set geometry for monitor 1
-L50: wmctrl -ir $WMCTRL_ID -e 0,0,0,1920,550;;
-L50 self-explanation: # wmctrl -ir $WMCTRL_ID -e $X,$Y,0,$WIDTH,$HEIGHT;;
+L50: # set geometry for monitor 1
+L52: wmctrl -ir $WMCTRL_ID -e 0,0,0,1920,550;;
+L52 self-explanation: # wmctrl -ir $WMCTRL_ID -e $X,$Y,0,$WIDTH,$HEIGHT;;
 ```
