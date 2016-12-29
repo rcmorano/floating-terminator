@@ -14,7 +14,7 @@ ln -s $PROJECT_DIR/floating-terminator /usr/local/bin
   * /usr/local/bin/floating-terminator 2
   * /usr/local/bin/floating-terminator 3
 * Modify geometry for each monitor in 'floating-terminator' script ([lines 49 and above](https://github.com/rcmorano/floating-terminator/blob/master/floating-terminator#L49)):
-  * HINT: use 'xdotool getmouselocation' to get positions for your top-left squares:
+  * HINT: use 'xdotool getmouselocation' to get positions for your top-left corners:
 ```
 ~$ xdotool getmouselocation
 x:0 y:0 screen:0 window:0
